@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./media/cravingmeal.webp" type="image/x-icon">
+  <title>Login Page</title>
+</head>
+<style>
+  *{
+    font-style: normal;
+    font-weight: 900;
+    font-style: normal;
+  }
+  #a{
+    text-decoration: none;
+  }
+  #btn2{
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(69, 237, 14);
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background: url("./media/blurred.webp") no-repeat center center  fixed;
+    background-size: cover;
+    
+  }
+  .box{
+    margin-top: 50px;
+    
+    
+  }
+  .container{
+    background-image: url("./media/snack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 470px;
+    margin-top: 240px;
+  }
+  .container{
+    @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+  }
+  #username{
+    
+    border-radius: 5px;
+    
+  }
+  #password{
+    
+    border-radius: 5px;
+  }
+  #username1{
+    color: black;
+  }
+  #btn{
+    width: 150px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(69, 237, 14);
+
+  }
+  #btn:hover{
+    background: transparent;
+  
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    border-radius: 90%;
+  }
+  #login{
+    text-align: center;
+  }
+  
+</style>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1 id="login">Login</h1>
+      <label for="username" id="username1">Username:</label><br>
+      <input type="text" id="username" placeholder="enter your UserId"><br><br>
+      <label for="password" id="username1">Password:</label><br>
+      <input type="password" id="password" placeholder="enter your password"><br><br>
+      <button type="submit" id="btn">Login</button><br>
+      <label>New To Craving Meal?</label>&nbsp;&nbsp;
+      <a href="registration.html" id="a">Create Account</a>
+    </div>
+  </div>
+</body>
+</html> 
+
+
